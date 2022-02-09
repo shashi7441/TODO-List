@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tittle{
+    width: 100%;
+    background-color: rgb(93, 184, 93);
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    /* background: #1D4350;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #A43931, #1D4350);  Chrome 10-25, Safari 5.1-6; */
+    /* background: linear-gradient(to right, #A43931, #1D4350); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(235deg, #BABC4A 0%, #000000 100%), linear-gradient(235deg, #0026AC 0%, #282534 100%), linear-gradient(235deg, #00FFD1 0%, #000000 100%), radial-gradient(120% 185% at 25% -25%, #EEEEEE 0%, #EEEEEE 40%, #7971EA calc(40% + 1px), #7971EA 50%, #393E46 calc(50% + 1px), #393E46 70%, #222831 calc(70% + 1px), #222831 100%), radial-gradient(70% 140% at 90% 10%, #F5F5C6 0%, #F5F5C6 30%, #7DA87B calc(30% + 1px), #7DA87B 60%, #326765 calc(60% + 1px), #326765 80%, #27253D calc(80% + 1px), #27253D 100%);
+background-blend-mode: overlay, lighten, overlay, color-burn, normal;
+
+}
+.head{
+    width:100%
+    
+}
+input{
+    height: 5vh;
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 7%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid;
+    
+}
+#Add{
+    height: 5vh;
+    width: 10%;
+    background-color:#76763f;
+}
+
+#Add:hover{
+    cursor: pointer;
+    background-color: green;
+    color: #000000;
+
+}
+i{
+    font-size: 20px;
+}
+h1{
+    padding-left: 36%;
+    /* color: rgba(97, 95, 12, 0.637); */
+    color: black;
+    padding-top: 5%;
+    font-size: 40px;
+}
+ul{
+    margin-top: 3%;
+    display: block;
+}
+li{ 
+    list-style-type: none;
+    /* background-color: #031956; */
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    align-items: center; 
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: darkkhaki;
+    color: #000000;
+    /* display: inline-block; */
+}
+
+
+#delete{
+
+    height: 7vh;
+    width: 10%;
+}
+
+.close{
+    float: right;
+    cursor: pointer;
+    font-size: 25px;
+
+
+}
+.close:hover{
+    background-color: red;
+    transition:all 2s; 
+    transform: skew(2);
+}
+
